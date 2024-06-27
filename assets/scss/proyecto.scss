@@ -1,0 +1,268 @@
+// Fuente
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+// Framework
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+// Estilos
+
+
+
+
+
+// ************************************* MENU DE NAVEGACIÓN *************************************
+
+.logo img{
+    max-width: 60px;
+    height: auto;
+}
+
+.bg-body-tertiary {
+    background-color: #000 !important;
+}
+
+.bg-body-tertiary a {
+    color: #fff;
+}
+
+.bg-body-tertiary a:hover {
+    color: red !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: red !important;
+}
+
+// ************************************* BODY *************************************
+
+body {
+    background-color: #141515;
+    color: #fff;
+}
+
+// ************************************* BANNER *************************************
+
+.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    min-width: 100%;
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+// ************************************* DARK MATTER *************************************
+
+.darkMatter img{
+    height: 500px;
+    width: auto;
+}
+
+.darkMatter h2, h5 {
+    text-align: center;
+}
+
+.darkMatter h5 {
+    margin-top: 25px;
+}
+
+.botonComprar a {
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background-color: #141515;
+    border: 1px solid #fff; 
+}
+
+.botonComprar a, .btn-warning {
+    color: #fff;
+}
+
+// ************************************* SHOWS *************************************
+
+.shows {
+    background-image: url('https://variety.com/wp-content/uploads/2021/09/Pearl-Jam-by-Charles-Reagan-for-Moonriver-2021DSC_5617.jpg');// preguntar a la profe porque no funcionó con la imagen en la carpeta
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px;
+}
+
+// ************************************* TOURS *************************************
+
+.tours {
+    text-align: center;
+}
+
+.botonTicket a {
+    text-align: center;
+    width: 50%;
+    background-color: #141515;
+    border: 1px solid #fff; 
+}
+
+// ************************************* MUSICA *************************************
+
+.musica {
+    background-image: url('https://townsquare.media/site/295/files/2018/12/PJ-Cover-Collage.jpg?w=980&q=75');// preguntar lo mismo aqui
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px;
+}
+
+// ************************************* DISCOGRAFIA *************************************
+
+.discografia img {
+    height: 200px;
+    width: auto;
+}
+
+.boton-album {
+    background-color: red; 
+    border: none;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px; 
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+}
+
+.album h5 {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 80px; 
+    margin-left: 80px;
+}
+
+// ************************************* BANDA 1 *************************************
+
+.banda1 {
+    background-image: url('https://cdn.britannica.com/31/256931-050-16FC9FFA/Pearl-Jam-band-1992.jpg');// preguntar lo mismo aqui
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px;
+}
+
+// ************************************* BANDA 2 *************************************
+
+.banda2 img {
+    height: 350px;
+    width: auto;
+    border-radius: 5%;
+}
+
+.integrante {
+    display: flex;
+    align-items: center; 
+}
+
+.integrante h3{
+    color: red;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.integrante h6 {
+    margin-top: 20px;
+}
+
+// ************************************* FOOTER *************************************
+
+footer {
+    background-color: #000;
+}
+
+footer h6 {
+    color: red;
+}
+
+.form-control {
+    background-color: #181414;    
+}
+
+.form-control::placeholder {
+    color: #808080;
+}
+
+.input-group-text {
+    background-color: #181414;
+    color: #808080;
+}
+
+.email a {
+    color: red;
+}
+
+.lita li a:hover {
+    text-decoration: underline;
+    color: #f38f00;
+}
+
+.lista2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.iconos ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.iconos ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos ul li img {
+    margin-right: 10px; 
+}
+
+.iconos ul li p {
+    margin-top: 20px;     
+}
+
+.iconos ul li a {   
+    text-decoration: none;  
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+}
